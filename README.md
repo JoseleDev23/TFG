@@ -7,6 +7,7 @@ El proyecto fue desarrollado como parte de mi Trabajo de Fin de Grado (TFG) en D
 🌐 Sitios web:
 
 www.drinkdrone.es
+
 www.drinkanddrone.es
 
 Tecnologías Utilizadas
@@ -15,6 +16,7 @@ Frontend:
 HTML5: Estructura semántica y sólida.
 CSS3: Diseño atractivo y completamente responsive.
 JavaScript: Interactividad y dinamismo.
+
 
 Backend:
 PHP: Gestión de formularios, login y envío de emails.
@@ -26,6 +28,7 @@ Owl Carousel: Carrusel elegante para presentación de proyectos.
 SlickNav: Menú de navegación móvil.
 Sticky Navigation Bar: Barra de navegación siempre visible.
 On-hover Effects: Efectos visuales dinámicos al pasar el cursor.
+
 
 Características Principales
 Interfaz de Usuario Atractiva: Diseño visualmente llamativo y fácil de usar.
