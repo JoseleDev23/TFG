@@ -49,9 +49,11 @@ Características Principales ⭐
 ⚡ Optimización de Velocidad y Rendimiento: Experiencia de navegación fluida y rápida.
 
 Estado del Proyecto 🚧
+
 Este proyecto es parte de mi TFG y actualmente está en fase formativa. Continuaré trabajando en su desarrollo para mejorar sus funcionalidades y optimizar la experiencia de usuario.
 
 Agradecimientos 🙌
+
 Quiero agradecer a mis profesores y compañeros por su apoyo en este proyecto, en especial a Alfonso Ballesteros, Laura Aguilar y Silvia Martín, del IES Playamar. 
 También, un agradecimiento a las increíbles herramientas de desarrollo que hicieron posible este proyecto.
 
