@@ -116,7 +116,7 @@ session_start();
                                                 <li><a href="#">Blog (Coming Soon)</a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.php">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Details</a></li>
+                                                        <li><a href="#">Blog Details</a></li>
                                                         <li><a href="#">Element</a></li>
                                                     </ul>
                                                 </li>
@@ -572,7 +572,7 @@ session_start();
                                         </div>
                                         <ul class="mb-40">
                                             <li class="number"><a href="#">644-23-74-63</a></li>
-                                            <li class="email"><a href="mailto:info@drinkanddrone.es">info@drinkanddrone.es</a></li>
+                                            <li class="email"><a href="mailto:info@drinkdrone.es">info@drinkdrone.es</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -641,7 +641,7 @@ session_start();
                                             document.write(new Date().getFullYear());
                                         </script>
                                         All rights reserved |
-                                        This Website is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Jose Antonio Muñoz Sarmiento</a>
+                                        This Website is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/jose-antonio-muñoz-sarmiento-1b151637" target="_blank">Jose Antonio Muñoz Sarmiento</a>
                                     </p>
                                 </div>
                             </div>

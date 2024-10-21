@@ -69,7 +69,7 @@
                                                 <li><a href="#">Blog (Muy Pronto)</a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.php">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Detalles</a></li>
+                                                        <li><a href="#">Blog Detalles</a></li>
                                                         <li><a href="#">Elementos</a></li>
                                                     </ul>
                                                 </li>
@@ -177,7 +177,7 @@
                             <div class="media contact-info">
                                 <a href="mailto:info@drinkanddrone.es"><span class="contact-info__icon"><i class="ti-email"></i></span></a>
                                 <div class="media-body">
-                                    <h3>info@drinkanddrone.es</h3>
+                                    <h3>info@drinkdrone.es</h3>
                                     <p>¡Envíanos tu consulta en cualquier momento!</p>
                                 </div>
                             </div>

@@ -17,14 +17,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->isSMTP();
     $mail->Host = 'smtp.servidor-correo.net'; // Servidor SMTP
     $mail->SMTPAuth = true;
-    $mail->Username = 'info@drinkanddrone.es'; // Usuario SMTP
-    $mail->Password = 'Numakira23'; // Contraseña SMTP
+    $mail->Username = 'info@drinkdrone.es'; // Usuario SMTP
+    $mail->Password = 'Numakira2324'; // Contraseña SMTP
     $mail->SMTPSecure = 'tls'; // Habilitar encriptación TLS (STARTTLS)
     $mail->Port = 587; // Puerto SMTP
 
     // Configurar remitente y destinatario
-    $mail->setFrom('info@drinkanddrone.es', 'Drink and Drone');
-    $mail->addAddress('info@drinkanddrone.es');
+    $mail->setFrom('info@drinkdrone.es', 'Drink and Drone');
+    $mail->addAddress('info@drinkdrone.es');
 
     // Escapar y validar las variables de solicitud
     $name = htmlspecialchars($_POST['name']);

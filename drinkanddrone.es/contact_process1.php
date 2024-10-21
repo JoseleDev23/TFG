@@ -23,10 +23,10 @@ $body .= "</tbody></table>";
 $body .= "</body></html>";
 
 // Configurar los parámetros del servidor SMTP
-$smtpServer = "smtp.drinkanddrone.es"; // Servidor SMTP
+$smtpServer = "smtp.drinkdrone.es"; // Servidor SMTP
 $smtpPort = 25; // Puerto SMTP
-$username = "info@drinkanddrone.es"; // Usuario SMTP
-$password = "Numakira23"; // Contraseña SMTP
+$username = "info@drinkdrone.es"; // Usuario SMTP
+$password = "Numakira2324"; // Contraseña SMTP
 
 // Configurar los encabezados del correo electrónico
 $headers = "From: {$from}\r\n";

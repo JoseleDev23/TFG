@@ -43,6 +43,18 @@
         footer {
             padding-bottom: 0px;
         }
+
+        /* Estilo para el tamaño de fuente de los elementos del formulario */
+        .form-control {
+            font-size: 16px;
+        }
+
+        /* Estilo para el tamaño de fuente del mensaje de error */
+        .error-message {
+            color: red;
+            font-weight: bold;
+            font-size: 16px;
+        }
     </style>
 </head>
 
@@ -100,20 +112,22 @@
                                     <label for="password" class="form-label">Contraseña:</label>
                                     <input type='password' name='inputPassword' id='password' maxlength="50" class="form-control">
                                 </div>
-                                <button type="submit" name="enviar" class="btn btn-primary">Entrar</button>
-                                <button type="button" onclick="window.location.href='formulario_registro.php'" class="btn btn-secondary">Registrarse</button>
-                                <!-- Aquí se mostrará el mensaje de error -->
-                                <?php
-                                if (!empty($error)) {
-                                    echo "<p style='color: red; font-weight: bold'>" . $error . "</p>";
-                                }
-                                ?>
+                                <div class="form-group text-center">
+                                    <button type="submit" name="enviar" class="btn btn-sm btn-primary">Entrar</button>
+                                    <button type="button" onclick="window.location.href='formulario_registro.php'" class="btn btn-sm btn-secondary">Registrarse</button>
+                                    <!-- Aquí se mostrará el mensaje de error -->
+                                    <?php
+                                    if (!empty($error)) {
+                                        echo "<p style='color: red; font-weight: bold'>" . $error . "</p>";
+                                    }
+                                    ?>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer>
@@ -135,7 +149,7 @@
                                         </div>
                                         <ul class="mb-40">
                                             <li class="number"><a href="#">644-23-74-63</a></li>
-                                            <li class="email"><a href="mailto:info@drinkanddrone.es">info@drinkanddrone.es</a></li>
+                                            <li class="email"><a href="mailto:info@drinkdrone.es">info@drinkdrone.es</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -202,7 +216,7 @@
                                         Copyright &copy; <script>
                                             document.write(new Date().getFullYear());
                                         </script> All rights reserved |
-                                        This Website is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Jose Antonio Muñoz Sarmiento</a>
+                                        This Website is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/jose-antonio-muñoz-sarmiento-1b151637" target="_blank">Jose Antonio Muñoz Sarmiento</a>
                                     </p>
                                 </div>
                             </div>

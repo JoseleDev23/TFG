@@ -17,7 +17,7 @@
                                     </div>
                                     <ul class="mb-40">
                                         <li class="number"><a href="#">644-23-74-63</a></li>
-                                        <li class="email"><a href="mailto:info@drinkanddrone.es">info@drinkanddrone.es</a></li>
+                                        <li class="email"><a href="mailto:info@drinkdrone.es">info@drinkdrone.es</a></li>
                                     </ul>
                                 </div>
                             </div>

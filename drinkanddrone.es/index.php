@@ -118,7 +118,7 @@ session_start();
                                                 <li><a href="#">Blog (Muy Pronto)</a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.php">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Detalles</a></li>
+                                                        <li><a href="#">Blog Detalles</a></li>
                                                         <li><a href="/Doc/index.html">Documentacion</a></li>
                                                     </ul>
                                                 </li>
@@ -178,7 +178,7 @@ session_start();
                                     <?php
                                     // Verificar si hay un usuario conectado
                                     if (isset($_SESSION['usuario'])) {
-                                        // Si el usuario está conectado, muestra el botón de "Logout"
+                                        // Si el usuario está conectado, muestra el botón de "Desconectarse"
                                         echo '<a href="logout.php" class="hero-btn" data-animation="fadeInUp" data-delay="0.7s">Desconectar</a>';
                                     } else {
                                         // Si el usuario no está conectado, muestra el botón de "Login"
@@ -525,7 +525,7 @@ session_start();
                                 </div>
                             </div>
                             <form id="contact-form" action="contact_process.php" method="POST">
-                                <div class="row">
+                                <div class=" row">
                                     <div class="col-lg-12 col-md-6">
                                         <div class="form-box user-icon mb-15">
                                             <input type="text" name="name" placeholder="Tu nombre">
@@ -580,7 +580,7 @@ session_start();
                                         </div>
                                         <ul class="mb-40">
                                             <li class="number"><a href="#">644-23-74-63</a></li>
-                                            <li class="email"><a href="mailto:info@drinkanddrone.es">info@drinkanddrone.es</a></li>
+                                            <li class="email"><a href="mailto:info@drinkdrone.es">info@drinkdrone.es</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -647,7 +647,7 @@ session_start();
                                         Copyright &copy; <script>
                                             document.write(new Date().getFullYear());
                                         </script> All rights reserved |
-                                        This Website is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Jose Antonio Muñoz Sarmiento</a>
+                                        This Website is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/jose-antonio-muñoz-sarmiento-1b151637" target="_blank">Jose Antonio Muñoz Sarmiento</a>
                                     </p>
                                 </div>
                             </div>
@@ -746,7 +746,20 @@ session_start();
             deleteCookie("cookiesAccepted");
         });
     </script>
-
+    <!-- JS FORMULARIO
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var message = document.getElementById("message").value;
+            if (name == "" || email == "" || phone == "" || message == "") {
+                alert("Todos los campos deben estar llenos.");
+                return false;
+            }
+            return true;
+        }
+    </script> -->
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
